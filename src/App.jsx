@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import Input from './components/Input'
 import Header from './components/Header'
 
 function App () {
@@ -6,9 +6,7 @@ function App () {
   return (
     <>
       <Header />
-      <h1 className="text-8xl text-center font-bold">
-        Generador de contraseñas
-      </h1>
+      <Input />
     </>
   )
 }
